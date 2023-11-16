@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
+<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+<body>
+
+    <div id="container">
+    <div id="main">
+        <div id="weather">
+
+            <div id="tempreture">
+                
+            </div>
+            <div id="city">
+                
+            </div>
+        </div>
+        <div id="maps">
+            <div id="map"></div>
+        </div>
+    </div>
+    <div id="other">
+        <div id="search">
+            <input type="text" id="input" placeholder="city"><button id="btn" onclick="sends()">search</button>
+        </div>
+      <div id="child">
+        <div class="box" id="feel">
+            <div>feels_like:
+            </div>
+           
+        </div>
+        <div class="box" id="min">
+            <div>min temperature:
+            </div>
+            
+        </div>
+        <div class="box"id="max">
+            <div>max temperature:
+            </div>
+           
+        </div>
+        <div class="box" id="humidity">
+            <div>humidity:
+            </div>
+           
+        </div>
+        <div class="box" id="presure">
+            <div>Pressure:
+            </div>
+           
+        </div>
+        <div class="box" id="wind">
+            <div>wind-speed:
+            </div>
+       
+        </div>
+
+      </div>
+
+    </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

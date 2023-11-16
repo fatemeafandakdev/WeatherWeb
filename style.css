@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    width: 80%;
+    height: 600px;
+    background-image: url("./pexels-photo-5213764.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#main{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+#other{
+    width: 35%;
+    height: 100%;
+    background-color:  rgba(160, 153, 153, 0.3);
+   
+}
+#child{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+}
+#weather{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+   
+   
+}
+#tempreture{
+    width: 100px;
+    height: 100px;
+   font-size: 70px;
+    margin: 40px;
+    color: rgb(250, 249, 248);
+    margin-right: 2px!important;
+    
+    
+}
+#city{
+    width: 250px;
+    height: 100px;
+    font-size: 45px;
+    margin: 20px;
+    color:  rgb(255, 255, 255);
+    margin-left: 2px!important;
+  
+   
+}
+
+
+#maps{
+    width: 100;
+    height: 50%;
+    background-color: rgba(233, 227, 227,0.5);
+    
+}
+#map{
+    width: 100%;
+    height: 100%;
+    
+}
+.box{
+    width: 70%;
+    height: 55px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 0.2px solid rgb(136, 118, 118);
+
+}
+.box>*{
+    font-size: 18px;
+    color: rgb(218, 190, 190);
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#search{
+    width: 90%;
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#input{
+    width: 70%;
+    height: 100%;
+    background-color: rgba(255, 255, 255,0.4);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    color: white;
+    font-size: 20px;
+}
+#btn{
+    width: 26%;
+    height: 100%;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.size{
+    color: orange;
+    font-size: 22px;
+    font-weight: bold;
+}
+.t{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
